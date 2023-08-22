@@ -15,6 +15,7 @@
         android:layout_marginTop="45dp"
         android:text=" MP3 PLAYER "
         android:textSize="20dp"
+
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,11 +57,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
-            android:text="Dosti Music Video"
+            android:text=" ♪ Neon Gensis Evangelion ♪"
             android:textSize="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:textStyle="bold">
+            android:textStyle="bold|italic">
 
         </TextView>
 
