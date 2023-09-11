@@ -14,9 +14,11 @@ class MainActivity : AppCompatActivity() {
 
         val play: FloatingActionButton = findViewById(R.id.floatingActionButton);
         val stop: FloatingActionButton = findViewById(R.id.floatingActionButton5);
-
         play.setOnClickListener {
             playbtn();
+
+
+
         }
         stop.setOnClickListener {
             stopbtn();
@@ -28,6 +30,9 @@ class MainActivity : AppCompatActivity() {
             MyService.PLAYERKEY,
             MyService.PLAYERVALUE
         ).apply { startService(this) }
+
+
+
     }
 
     fun stopbtn() {
