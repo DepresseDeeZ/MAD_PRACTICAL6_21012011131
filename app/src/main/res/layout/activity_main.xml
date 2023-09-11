@@ -127,15 +127,15 @@
             android:id="@+id/floatingActionButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="true"
             android:layout_gravity="center"
-            app:elevation="50dp"
             android:layout_marginRight="-135dp"
             android:layout_marginBottom="-20dp"
             android:backgroundTint="#847D75"
+            android:clickable="true"
+            app:elevation="50dp"
             app:fabCustomSize="50dp"
-            app:tint="@color/white"
-            app:srcCompat="@drawable/baseline_stop_24" />
+            app:srcCompat="@drawable/baseline_stop_24"
+            app:tint="@color/white" />
 
 
     </com.google.android.material.card.MaterialCardView>
